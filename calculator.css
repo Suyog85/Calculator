@@ -23,3 +23,37 @@
   height: 45px;
   margin: 3px;
 }
+
+.button:hover {
+  background-color: #dcdcdc;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:nth-child(4n) {
+  background-color: #ffda79;
+}
+
+.button:nth-child(4n):hover {
+  background-color: #ffd700;
+}
+
+.button:nth-last-child(-n+3) {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.button:nth-last-child(-n+3):hover {
+  background-color: #5a6268;
+}
+
+#calcualtor {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
